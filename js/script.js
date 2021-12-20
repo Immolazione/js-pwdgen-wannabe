@@ -5,5 +5,8 @@ console.log("JS OK");
 // COLORE PREFERITO
 // STAMPA
 
+passGenerated = `${myName} ${mySurname} ${myColor}21`;
 
-document.getElementById("pass_generated").innerHTML 
+console.log(passGenerated);
+
+document.getElementById(passGenerated).innerHTML;
