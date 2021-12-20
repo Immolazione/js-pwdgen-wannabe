@@ -24,4 +24,10 @@ const passGenerated = `${myName}${mySurname}${myColor}21`;
 
 console.log(passGenerated);
 
+// RECUPERO ELEMENTO
 
+const passResult = document.getElementById('pass-generated');
+
+// PRINT IN PAGINA
+
+passResult.innerHTML = `La tua password è: <strong>${passGenerated}</strong>`
