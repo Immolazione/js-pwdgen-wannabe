@@ -9,13 +9,13 @@ STAMPA */
 
 // VARIABILI
 
-const myName = prompt('Qual è il tuo nome?');
+const myName = prompt('Qual è il tuo nome?').trim();
 console.log(myName);
 
-const mySurname = prompt('Qual è il tuo cognome?');
+const mySurname = prompt('Qual è il tuo cognome?').trim();
 console.log(mySurname);
 
-const myColor = prompt('Qual è il tuo colore preferito?');
+const myColor = prompt('Qual è il tuo colore preferito?').trim();
 console.log(myColor);
 
 // FORMAZIONE PASSWORD
